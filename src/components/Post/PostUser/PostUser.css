@@ -1,0 +1,104 @@
+::-webkit-scrollbar {
+    width: 0px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:  transparent;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: transparent; 
+  }
+
+  .PostUser{
+    border-radius: 0.5rem;
+    color: var(--black);
+  }
+
+  .PostWrapper{
+    margin: 1rem 1rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 01rem;
+    border-radius: 1.5rem;
+
+  }
+
+  .header{
+    display: flex;
+    gap: 01rem;
+    align-items: center;
+  }
+
+  .userimg{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+  }
+
+  .headerright{
+    max-width: 100%;
+  }
+
+  .headerright>span:nth-of-type(1){
+    font-weight: bold;
+    font-size:18px;  
+  }
+
+  .headerright>span:nth-of-type(2){
+    font-weight: 200;
+    font-size:15px;  
+  }
+
+  .poster>img{
+    max-width: 100%;
+    border-radius: 1rem;
+    max-height: 30rem;
+  }
+
+  .likes{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-weight: 500;
+  }
+
+  .likes>div>img{
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+  }
+  .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  @media screen and (max-Width: 700px){
+    .header{
+      gap: 0.5rem;
+    }
+  
+    .userimg{
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+    
+    .headerright>span:nth-of-type(1){
+      font-weight: bold;
+      font-size:15px;  
+    }
+  
+    .headerright>span:nth-of-type(2){
+      font-weight: 200;
+      font-size:12px;  
+    }
+
+    .desc{
+      font-size: 15px;
+    }
+  }

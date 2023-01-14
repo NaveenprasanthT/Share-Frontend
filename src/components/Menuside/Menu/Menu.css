@@ -1,0 +1,22 @@
+.MenuOptions>ul{
+    list-style: none;
+    font-size: 18px;
+}
+
+.MenuOptions>ul>li{
+    padding: 15px 0;
+}
+
+.MenuOption{
+    display: flex;
+    align-items: center;
+}
+.MenuOption>span{
+    color: #f95f35;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.MenuOption>span:hover{
+    color: red;
+}

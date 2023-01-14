@@ -1,0 +1,28 @@
+.home{
+    position: relative;
+    display: grid;
+    grid-template-columns: 18rem auto 20rem;
+    gap: 1rem;
+}
+
+.dummyhome{
+    position: relative;
+    display: grid;
+    grid-template-columns:18rem auto 20rem;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 1149px) {
+    .home{
+        position: relative;
+        display: grid;
+        grid-template-columns: auto;    
+        gap: 0rem;
+    }
+    .dummyhome{
+        position: relative;
+        display: grid;
+        grid-template-columns: auto;    
+        gap: 0rem;
+    }
+}

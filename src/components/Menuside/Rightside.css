@@ -1,0 +1,26 @@
+.Rightside{
+    border-top: 2px solid black;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.userinfoWrapper{
+    border: 2px solid #f95f35;
+    margin-top: 7.5rem;
+    padding: 2rem 0;
+    border-radius: 1.5rem;
+}
+
+.userinfoWrapper>h2{
+    text-align: center;
+}
+
+.info{
+    font-size: 18px;
+    padding: 1rem 3rem;
+}
+
+td{
+    padding: 5px 5px;
+}

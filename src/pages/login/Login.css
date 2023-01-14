@@ -1,0 +1,148 @@
+.login{
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+}
+
+.loginWrapper{
+    display: flex;
+    gap: 3rem;
+}
+
+.loginleft{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoandname{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logoandname>img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+}
+
+.logoandname>span{
+    font-size: 50px;
+    font-weight: 1000;
+    color:  #f99827;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.by>h5{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: cursive;
+    color: #f99827;
+    margin-left: 6rem;
+}
+
+.loginright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 2rem 1.5rem;
+    background: #fff;
+    border-radius: 1.5rem;
+}
+
+.inputcss{
+    padding: 0 1rem;
+    font-size:15px;
+    height: 3rem;
+    min-width: 23rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    background: #eee;
+}
+
+.loginbutton{    
+    align-items: center;
+    height: 2.5rem;
+    font-size: 17px;
+}
+
+.loginbutton:disabled{
+    cursor: not-allowed;
+}
+
+.loginright>span{
+    color: #1775ee;
+    padding: 0 5px;
+}
+
+.newacc{
+    width: 60%;
+    align-self: center;
+    height: 2.5rem;
+    font-size: 16px;
+}
+
+.newacc:disabled{
+    cursor: not-allowed;
+}
+
+.newacc{
+    background: #42b72a;
+}
+
+@media screen and (max-Width:770px) {
+    .loginWrapper{
+        flex-direction: column;
+        gap: 0.1rem;
+    }
+    .loginleft{
+        gap: .5rem;
+    }
+    
+    .logoandname{
+        gap: .5rem;
+    }
+    
+    .logoandname>img{
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+    }
+    
+    .logoandname>span{
+        font-size: 30px;
+        font-weight: 1000;
+    }
+    
+    .by>h5{
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: 4rem;
+    }
+    .loginright{
+        padding: 1rem 0rem;
+        background: #fff;
+        border-radius: 1.5rem;
+    }
+    .loginright>span{
+        color: #1775ee;
+        padding: 0 15px;
+    }
+    
+    .inputcss{
+        padding: 0 1.5rem;
+        font-size:15px;
+        height: 3rem;
+        min-width: 15rem;
+        border-radius: .5rem;
+        border: none;
+        outline: none;
+        background: red;
+    }
+}

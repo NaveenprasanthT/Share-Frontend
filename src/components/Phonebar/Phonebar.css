@@ -1,0 +1,42 @@
+.phonebar{
+    display: flex;
+    height: 3.5rem;
+    width: 100%;
+    background-color: #f99827;
+    align-items: center;
+    justify-content: center;
+}
+
+.phonebarcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 1.3rem;
+}
+
+.phonebarcontainer>img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.phonebarcontainer>ul{
+    padding: .7rem 0;
+    transform: scale(1.5);
+}
+
+.phnemenu{
+    z-index: 2;
+    position: absolute;
+    background: rgb(103, 103, 103);
+    height: 40rem;
+    width: 18rem;
+    right: 0px;
+    top: 3.5rem;
+    overflow: hidden;
+}
+
+.closed{
+    display: none;
+}
